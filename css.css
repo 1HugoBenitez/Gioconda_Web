@@ -1,0 +1,253 @@
+    *{
+        margin:0;
+        padding:0;
+        list-style:none;
+        font-family:sans-serif;
+        }
+    
+    #logo{
+        margin-left: 60px;
+        width: 500px ; 
+        height: 180px;
+        border-radius: 10px;
+    }
+
+    #gioconda{
+        margin-left: 40%;
+        width: 200px ; 
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    span{
+        color: #234143;
+    }
+
+    #top{
+        position:relative;
+        margin:20px auto;
+        width:1000px;
+        height:192px;
+        }
+    
+    #top ul{
+        width:1010px;
+        height:192px;
+        }
+        
+    #top ul li{
+        float:left;
+        width:300px;
+        height:192px;
+        margin-right:10px;
+        text-align:center;
+        }
+        
+    #top ul li img{
+        border-radius:100%;
+        height:100px;
+        }
+        
+    #top ul li h1{
+        font-family: 'Kaushan Script', cursive;
+        }
+        
+    #top ul li p{
+        font-size:14px;
+        margin:10px;
+        }
+    
+    
+    #logotipo{
+        width:100%;
+        height:300px;   
+        background-color: #234143;
+
+    }
+
+    #izquierda{
+
+        position: static;
+        width:1000px;
+        margin-left: 18%;
+        height: 1500px;
+        background: #ffffff;
+        text-align:justify;
+        font-size: 20px;
+
+    }
+
+    #izquierda3{
+
+        position: static;
+        width:1000px;
+        margin-left: 18%;
+        height: 3500px;
+        background: #ffffff;
+        text-align:justify;
+        font-size: 20px;
+
+    }
+
+    #izquierda4{
+
+        position: static;
+        width:1000px;
+        margin-left: 18%;
+        height: 1000px;
+        background: #ffffff;
+        text-align:justify;
+        font-size: 20px;
+
+    }
+
+    #izquierda5{
+
+        position: static;
+        width:1000px;
+        margin-left: 18%;
+        height: 2500px;
+        background: #ffffff;
+        text-align:justify;
+        font-size: 20px;
+
+    }
+
+    #izquierda7{
+
+        position: static;
+        width:1000px;
+        margin-left: 18%;
+        height: 3000px;
+        background: #ffffff;
+        text-align:justify;
+        font-size: 20px;
+
+    }
+
+    #izquierda6{
+
+        position: static;
+        width:1000px;
+        margin-left: 18%;
+        height: 1100px;
+        background: #ffffff;
+        text-align:justify;
+        font-size: 20px;
+
+    }
+
+    #izquierda8{
+
+        position: static;
+        width:1000px;
+        margin-left: 18%;
+        height: 750px;
+        background: #ffffff;
+        text-align:justify;
+        font-size: 20px;
+
+    }
+
+
+    #Buscar{
+        margin-left: 50%;
+        height: 20px;
+        color: white;
+    }
+
+    #footer_inicio{
+        position:relative;
+        width:100%;
+        height:100%;
+        background:#234143;
+        text-align:center;
+        font-size: 20px;
+        line-height:70px;
+        color:rgb(255, 255, 255);
+        }    
+
+
+    #ipbuscra{
+        width: 275px;
+        color: #ffffff;
+        margin-left: 50%;
+    }
+
+    .boton {
+        border: 1px solid#ACB0B1; 
+        padding: 10px;
+        background-color: #ACB0B1;
+        color: #ffffff; 
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Helvetica', sans-serif;
+        margin-left: 20px; 
+        border-radius: 30px; 
+    }
+
+    .boton2 {
+        border: 1px solid #ACB0B1; 
+        padding: 10px;
+        background-color: #ACB0B1;
+        color: #ffffff; 
+        margin-left: 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Helvetica', sans-serif; 
+        border-radius: 30px; 
+    }
+
+    .boton3 {
+        border: 1px solid #99EB6F; 
+        padding: 10px;
+        background-color: #99EB6F;
+        color: #ffffff; 
+        margin-left: 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Helvetica', sans-serif; 
+        border-radius: 30px; 
+    }
+
+    .boton4 {
+        border: 1px solid #00ACED; 
+        background-color: #00ACED;
+        color: #000000; 
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Helvetica', sans-serif; 
+        border-radius: 30px; 
+    }
+
+    #btn_inicio{
+    margin-left: 45%;    
+    color: white;
+    margin-bottom: 10px;
+    font-size: 35px;
+    }
+    
+
+    #btn_sobre{
+        color: white;
+        font-size: 35px;
+        margin-left: 150px;
+    }
+
+    #btn_promociones{
+        color: white;
+        font-size: 35px;
+    }
+
+    #btn_productos{
+        color: white;
+        font-size: 35px;
+        margin-left: 150px;
+
+    }
+
+
+      
+
+        
+        

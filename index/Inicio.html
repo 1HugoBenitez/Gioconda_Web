@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+    <title>Gioconda Salon</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+
+<body style="background-color: #234143" >
+
+    <!-- Inicia Logotipo --> 
+    <header id="logotipo">
+            <br>
+            <br>
+            <div style="overflow: hidden;" >
+                    <div style="float: left;" >
+                            <img src="logo.jpg" alt="La Gioconda" id="logo">  
+                        </div>   
+            <div style="float: left;" >            
+                    <h4 id="Buscar">Busqueda</h1>
+            </div> 
+                <div style="float: left;" >
+                        <input  type="text"  style="margin-top: 10px; margin-left: 100px; color: white;" >
+                </div> 
+
+                <div style="float: right; margin-right: 85px;  margin-top: 20px;" >
+                        <a class="boton3" href="Cerrar_Sesion.html"/>Crear Cuenta</a>
+                    </div>  
+
+                <div style="float: right; margin-top: 20px;  " >
+                        <a class="boton2" href="MiBolsa.html"/>Mi bolsa</a>
+                </div> 
+
+                <div style="float: right; margin-top: 20px; " >
+                        <a class="boton"  href="" >Buscar</a>
+                </div>     
+
+            </div>
+             <a href="Inicio.html" id="btn_inicio" >Inicio</a>
+             <a href="SobreGioconda.html" id="btn_sobre" >Sobre Salon</a>
+             <a href="Productos.html"  id="btn_productos" >Productos</a>
+         </header>
+<!-- Cierra logotipo -->
+
+    <!-- Inicia ventana izquierda --> 
+    <footer id ="izquierda2" style="background-color: black" >
+
+        <!--Inicio Slyder-->
+
+                <section class="slider">
+
+                    <ul class="slides">
+
+                        <li>
+                            <img src="imagenes principales/modelo 1.jpg" >
+                            <div class="caption center-align">
+                            </div>
+                        </li>
+
+                        <li>
+                            <img src="imagenes principales/modelo 2.jpg" >
+                            <div class="caption center-align">
+                            </div>
+                        </li>
+
+                        <li>
+                            <img src="imagenes principales/modelo 3.jpg" >
+                            <div class="caption center-align">
+                            </div>
+                    </li>
+
+                    <li>
+                        <img src="imagenes principales/modelo 4.jpg" >
+                        <div class="caption center-align">
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="imagenes principales/modelo 5.jpg" >
+                        <div class="caption center-align">
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="imagenes principales/modelo 6.jpg" >
+                        <div class="caption center-align">
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="imagenes principales/modelo 8.jpg" >
+                        <div class="caption center-align">
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="imagenes principales/modelo 5.jpg" >
+                        <div class="caption center-align">
+                        </div>
+                    </li>
+                    </ul>
+
+                </section>
+
+
+    <!--Final Slyder-->
+            
+    </footer>
+     <!-- Cierra ventana izquierda -->
+
+    <!-- Inicia Pie de Página -->
+    <footer id ="footer_inicio">
+            <a href="Inicio.html" style="color: white" >Inicio</a>
+            <span>------------------------</span>
+            <a href="SobreGioconda.html" style="color: white">Sobre Salon</a>
+            <span>------------------------</span>
+            <a href="Promociones.html" style="color: white">Promociones</a>
+            <span>------------------------</span>
+            <a href="Productos.html" style="color: white">Productos</a>
+            <span>------------------------</span>
+            <a href="MiBolsa.html" style="color: white">Mi Bolsa</a>
+            <br>
+        &copy; Todos los derechos reservados.
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <!-- Cierra Pie de Página -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems,{
+        indicators: false,
+        interval: 7000,
+		height: 750,
+		transition: 500
+    });
+  });
+    </script>
+
+
+</body>
+</html>
